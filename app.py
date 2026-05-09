@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load trained model
-model = joblib.load("model/catboost_aqi.pkl")
+model = joblib.load("Model/catboost_aqi.pkl")
 
 # App Title
 st.title("Real-Time Air Quality Index Prediction System")
